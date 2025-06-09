@@ -15,8 +15,8 @@ A Python-based AI assistant that:
 
 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd ai-visual-assistant
+git clone https://github.com/PalakKhem16/AI_Visual_Assistant.git
+cd AI_Visual_Assistant
 ```
 
 2. Install dependencies
