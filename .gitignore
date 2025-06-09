@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# Static files (generated audio)
+static/*.mp3
+
+# YOLO model (can be downloaded)
+*.pt
+
+# VS Code
+.vscode/
