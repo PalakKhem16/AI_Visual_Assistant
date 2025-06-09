@@ -9,7 +9,7 @@ A Python-based AI assistant that:
 ## Requirements
 - Python 3.8+
 - Tesseract OCR
-- OpenAI API key
+
 
 ## Installation
 
@@ -28,10 +28,6 @@ pip install -r requirements.txt
 - Windows: Download and install from [Tesseract GitHub](https://github.com/UB-Mannheim/tesseract/wiki)
 - Add Tesseract to PATH
 
-4. Set up environment variables:
-Create a `.env` file with:
-```
-OPENAI_API_KEY=your_api_key
 ```
 
 ## Usage
@@ -51,8 +47,7 @@ python test_request.py
 ### POST /process-frame/
 Process an image and get object detection results with audio description.
 
-### POST /voice-command/
-Process voice commands and get spoken responses.
+
 
 ## Project Structure
 - `main.py`: FastAPI application
